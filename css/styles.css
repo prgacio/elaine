@@ -1,0 +1,184 @@
+body{
+  overflow-x: hidden;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+form{
+  padding: 1rem;
+}
+
+
+.home-section{
+  position: relative;
+  background-image: url("../images/heidi-sandstrom.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh
+
+
+}
+
+.personal-brand{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*background-color: #000d0e;
+  border-radius: 25px;*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #000d0e;
+  font-weight: 400;
+  padding: 30px 20px 20px;
+
+}
+
+/*-- Navegación --*/
+
+.navbar{
+  background-color: transparent;
+    color: #000000;
+}
+
+.nav-link{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: 1.1px;
+  font-size: 13px;
+}
+
+.nav-item{
+  color: #000000;
+}
+
+
+/*-- Servicios --*/
+
+
+.servicios{
+  margin: 0;
+  padding: 9rem 0;
+}
+
+.servicios h3{
+  padding-bottom: 4rem;
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+
+.card{
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.col-servicios{
+  padding-bottom: 1rem;
+}
+
+/*--- Fila con imagen ---*/
+
+.fila-imagen{
+  background-image: url("../images/priscilla-du-preez.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 50rem;
+
+}
+
+/* --- Sobre mí --- */
+
+.imagen-perfil{
+  border-radius: 50%;
+}
+
+.perfil h3{
+
+  padding: 7rem 0 4rem;
+  font-weight: 300;
+}
+
+.row-perfil{
+  padding-bottom: 1rem;
+}
+
+.row-perfil p{
+  padding: 2rem 0;
+}
+
+
+/*--- Contacto ---*/
+
+.contacto{
+  padding: 8rem 0;
+}
+
+.contacto h3{
+  padding-bottom: 4rem;
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+
+.row-contacto{
+  margin 0 auto;
+}
+
+.row-contacto h6{
+  padding: 1rem 0 0.5rem;
+  margin: 0;
+  font-weight: 300;
+}
+
+.text-center .fas{
+  padding: 0.6rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  background-color: #121212;
+  border-radius:50%;
+}
+
+.contacto-apartado p{
+  padding-bottom: 1.5rem;
+}
+
+.formulario-contacto{
+  padding: 3rem 0 0;
+}
+
+/*--- Footer --*/
+
+.footer{
+  background-color: #121212;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.avisos p{
+  display: inline;
+}
+
+.fa-circle{
+  font-size: 0.25rem;
+}
+
+.go-to-top{
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+}
+
+.fa-caret-up{
+  font-size: 2.5rem;
+}
